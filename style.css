@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+
+}
+
+article,
+footer {}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.container_full {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.header_bg {}
+
+#header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(28, 27, 27, 0.8)), url(img/home.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 747.31px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper i {
+    margin-top:
+}
+
+.social_icon {
+    width: 40%;
+    margin: 30px 0px;
+
+}
+
+.brand {
+    width: 30%;
+    text-align: center;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.right_icon {
+    width: 30%;
+    margin: 30px 0px;
+    text-align: right;
+
+}
+
+.social_icon h3 {
+    display: inline-block;
+    color: gray;
+    margin: 0;
+    font-size: 20px;
+}
+
+.social_icon h3::after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: gray;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.social_icon a {
+    display: inline-block;
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    margin-right: 5px;
+    color: #038a58;
+    border: 2px solid #038a58;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.5s all ease;
+}
+
+.right_icon a {
+    display: inline-block;
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    margin-right: 5px;
+    color: #038a58;
+    border: 2px solid #038a58;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.5s all ease;
+}
+
+.social_icon a:last-child {
+    margin-right: 0;
+}
+
+.social_icon a:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+.right_icon a:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+.social_icon a i {
+    margin-top: 5px;
+
+}
+
+.right_icon a i {
+    margin-top: 5px;
+}
+
+.right_icon a {
+    display: inline-block;
+}
+
+.center_text {
+    color: white;
+    margin: 0 30%;
+    padding: 10% 0%;
+    text-align: center;
+
+}
+
+.center_text h1 {
+    font-size: 70px;
+}
+
+span {
+    color: #038a58;
+}
+
+.center_text a {
+    display: inline-block;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #038a58;
+    border: 2px solid #038a58;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.btn:hover {
+    background: none;
+}
+
+#tasty_products {
+    height: 1026px;
+}
+
+.signle_coffee {
+    width: 25%;
+    text-align: center;
+    margin-right: 2%;
+    transition: 0.5s all ease;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.signle_coffee:last-child {
+    margin-right: 0;
+}
+
+.signle_coffee:hover {
+    box-shadow: 4px 4px 20px gray;
+}
+
+#active {
+    box-shadow: 4px 4px 20px gray;
+}
+
+.top_text {
+    text-align: center;
+}
+
+.top_text h1 {
+    font-size: 60px;
+    color: black;
+}
+
+h4 {
+    color: #038a58;
+}
+
+.top_text h1 {}
+
+p {
+    color: gray;
+}
+
+.signle_coffee img {
+    width: 100%;
+}
+
+
+#Quality {
+    background-image: url(img/w1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 634px;
+    padding: 30px;
+
+}
+
+.right {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.right img {
+
+    margin: 50px 0px;
+    margin-left: 70%;
+}
+
+.left p {
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.left h1 {
+    margin: 40px 0px;
+}
+
+.left {
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+}
+
+.location {
+    display: flex;
+    justify-content: left;
+}
+
+.location a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#assorement {
+    background-color: #038a58;
+    position: relative;
+    height: 582px;
+    padding: 30px;
+}
+
+.assorement_item {
+    width: 30%;
+    margin-right: 3%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.assorement_item a {
+    color: white;
+}
+
+.assorement_item a i {
+    font-size: 50px;
+}
+
+.line::after {
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 120px;
+    margin-top: -110px;
+    background-color: white;
+    position: absolute
+}
+
+.assorement_item_1::after {
+    display: none;
+
+}
+
+.assorement_item:last-child {
+    margin-right: 0;
+}
+
+.read {
+    text-decoration: none;
+    color: white;
+    background-color: #1b8e64;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.read:hover {
+    background: white;
+    border: 2px solid #038a58;
+    color: black;
+
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
+    background-color: #038a58;
+    border: 2px solid black;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.contact:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.read {
+    position: absolute;
+    margin-top: -110px;
+}
+
+.contact {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+
+#kaffa_menu h1 {
+    color: black;
+    margin-top: -10px;
+}
+
+#kaffa_menu h4 {
+    margin-top: -30px;
+}
